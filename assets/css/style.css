@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #31343d;
+}
+  
+h1 {
+    font-size: 200%;
+    background-color: #92ccce;
+    color: #31343d;
+    padding: 20px 20px 20px 100px;
+    margin: 5px 5px 5px 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    margin-right: 20px;
+}
+  
+nav a {
+    text-decoration: none;
+}
+
+main {
+    color:#31343d;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+main article {
+    display: flex;
+}
+
+main ul {
+    display: flex;
+    justify-content: space-between;
+}
