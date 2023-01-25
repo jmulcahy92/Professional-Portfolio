@@ -1,10 +1,13 @@
+/* HEADER/NAV BAR */
+/* creates header with flex and background color */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #31343d;
 }
-  
+
+/* heading */
 h1 {
     font-size: 200%;
     background-color: #92ccce;
@@ -13,16 +16,39 @@ h1 {
     margin: 5px 5px 5px 0px;
 }
 
-nav ul {
+/* navbar spacing */
+header nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
     margin-right: 20px;
 }
-  
-nav a {
+
+/* navbar link decoration and color */
+header nav a {
     text-decoration: none;
+    color: #92ccce;
 }
+
+
+/* FIGURE */
+/* large image */
+figure {
+    background-image: url(../../images/figure.jpg);
+    min-height: 500px;
+}
+
+/* image subtitle */
+figcaption {
+    background-color: #92ccce;
+    color: #31343d;
+    position: relative;
+    top: 400px;
+    left: 90%;
+    padding: 5px;
+    max-width: fit-content;
+}
+
 
 main {
     color:#31343d;
@@ -30,13 +56,62 @@ main {
 
 h2 {
     font-size: 200%;
+    padding: 10px;
+    border: #31343d;
+    border-width: 5 px;
 }
 
 main article {
     display: flex;
+    align-items: center;
 }
 
-main ul {
+#work ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#work li {
+    margin: 5px;
+    padding: 5px;
+}
+
+#work a {
+    background-color: #92ccce;
+    color: #31343d;
+}
+
+#study-guide {
+    background-image: url(../../images/study-guide.jpg);
+    width: 1280px;
+    height: 720px;
+}
+
+#horiseon {
+    background-image: url(../../images/horiseon.jpg);
+    width: 640px;
+    height: 360px;
+}
+
+#portfolio {
+    background-image: url(../../images/portfolio.jpg);
+    width: 640px;
+    height: 360px;
+}
+
+footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1200px;
+    margin-right: 200px;
+}
+
+footer nav a {
+    text-decoration: none;
 }
