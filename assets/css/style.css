@@ -24,7 +24,6 @@ h1 {
 header nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
     margin-right: 20px;
 }
 
@@ -32,6 +31,8 @@ header nav ul {
 header nav a {
     text-decoration: none;
     color: #92ccce;
+    padding: 5px;
+    margin: 10px;
 }
 
 
@@ -44,7 +45,7 @@ figure {
 }
 
 /* image subtitle */
-figcaption {
+/* figcaption {
     background-color: #92ccce;
     color: #31343d;
     position: relative;
@@ -52,78 +53,58 @@ figcaption {
     left: 90%;
     padding: 5px;
     max-width: fit-content;
-}
+} */
 
 
+/* MAIN */
 main {
-    color:#31343d;
+    color: #31343d;
+    font-weight: bold;
 }
 
-h2 {
-    font-size: 200%;
-}
-
-main section {
+section {
+    margin-top: 10px;
     display: flex;
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
     align-items: stretch;
 }
 
-.heading-container {
-    /* width: 15%; */
-    padding: 10px;
-    border-right: 5px solid #31343d;
+.left-column {
+    flex-basis: 20%;
+    text-align: right;
+    border-right: solid 3px #31343d;
+    margin: 10px;
 }
 
-#work ul {
+.right-column {
+    flex-basis: 80%;
+    padding: 5px;
+    margin: 10px
+}
+
+h2{
+    font-size: 200%;
+    padding: 5px;
+    margin: auto;
+}
+
+#work .right-column {
     display: flex;
     flex-wrap: wrap;
 }
 
-#work li {
+img {
+    border: 5px solid #31343d;
     margin: 5px;
-    padding: 5px;
+    max-width: 100%;
+    height: auto;
 }
 
-#work a {
-    background-color: #92ccce;
+#contact-me ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+main a {
     color: #31343d;
-}
-
-
-#study-guide {
-    /* background-image: url(../../images/study-guide.jpg); */
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#horiseon {
-    /* background-image: url(../../images/horiseon.jpg); */
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#portfolio {
-    /* background-image: url(../../images/portfolio.jpg); */
-    max-width: 100%;
-    max-height: 100%;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 1200px;
-    margin-right: 200px;
-}
-
-footer nav a {
     text-decoration: none;
 }
