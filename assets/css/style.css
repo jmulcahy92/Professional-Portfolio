@@ -92,11 +92,24 @@ h2{
     flex-wrap: wrap;
 }
 
+#work a {
+    position: relative;
+}
+
 img {
-    border: 5px solid #31343d;
+    border: 10px solid #92ccce;
     margin: 5px;
     max-width: 100%;
     height: auto;
+}
+
+h3{
+    background-color: #92ccce;
+    font-size: 150%;
+    position: absolute;
+    bottom: 100%;
+    left: 10px;
+    padding: 5px;
 }
 
 #contact-me ul {

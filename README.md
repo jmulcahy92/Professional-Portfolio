@@ -10,7 +10,8 @@ https://jmulcahy92.github.io/Professional-Portfolio/
 
 ## Screenshot
 
-![Screenshot of Professional Portfolio](/images/figure.jpg)
+![Screenshot 1 of Professional Portfolio](/images/screenshot1.png)
+![Screenshot 2 of Professional Portfolio](/images/screenshot2.png)
 
 ## Installation
 
